@@ -1,0 +1,104 @@
+/*CSS Reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;;
+}
+
+nav {
+	padding: 1rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+}
+
+nav > ul {
+	list-style-type: none;
+}
+
+nav .nav , nav .nav-logo {
+	margin: 0.5rem;
+	display: inline;
+}
+
+/*intro section*/
+
+#intro {
+	/*padding: 2rem;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3rem;
+	*/
+
+	padding: 2rem 10% 3rem;
+	text-align: center;
+}
+
+#intro  .header, #intro p {
+	margin-bottom: 1rem;
+}
+
+#intro button {
+	color: white;
+	background-color: #c2195b;
+	padding: 1rem;
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 1rem;
+	/*margin-top: 1rem;*/
+}
+
+
+#succeed-info {
+	padding: 2rem 10% 3rem;
+	
+}
+
+#succeed-info h2, #succeed-info h3 {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#succeed-info .card {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	padding-left: 10px;
+	min-height: 150px;
+}
+
+footer {
+	padding: 0.7rem;
+	text-align: center;
+}
+
+footer span {
+	margin: 0rem 0.5rem 0rem;
+}
+
+#pre-footer {
+	padding: 3rem 10% ;
+	background-color: #114455;
+}
+
+#pre-footer div  {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+
+#pre-footer div h3 {
+	margin-bottom: 1rem;
+	color: white;
+}
+
+ #pre-footer div p {
+ 	color: white;
+ }
+
+
